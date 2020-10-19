@@ -4,5 +4,5 @@ import "./style.css";
 export const Footer: FunctionComponent = () => {
   const currentYear = new Date().getFullYear();
 
-  return <footer className="footer">Mini Keyboard {currentYear}</footer>;
+  return <footer className="footer">Midi Keyboard {currentYear}</footer>;
 };
